@@ -68,10 +68,17 @@
 			<artifactId>commons-lang3</artifactId>
 		</dependency>
 
+		<!-- JPA modelgen-->
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-jpamodelgen</artifactId>
 			<version>6.1.7.Final</version>
+		</dependency>
+
+		<!-- Security basic -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 
 	</dependencies>
